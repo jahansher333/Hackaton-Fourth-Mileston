@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Resume.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header heading -->
+     <h1 class="headingheader">EDITABLE DYNAMIC RESUME</h1>
+     <!-- container -->
+     <div class="container">
+      <!-- resumeform -->
+    <form id="resumeform">
+      <!-- PErsonal Information -->
+    <fieldset class="fieldset">
+    <legend for="name">PERSONAL INFORMATION</legend>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" class="form-control" required><br><br>
+    <label for="age">Age :</label><br>
+    <input type="text" id="age" class="form-control" required>
+    </fieldset>
+      <!-- CONTACT -->
+    <fieldset class="fieldset">
+      <legend for="phone">CONTACT</legend>
+      <label for="phone">Phone No:</label><br>
+      <input type="text" id="phone" class="form-control" required><br><br>
+  
+      <label for="email">Email :</label><br>
+      <input type="email" id="email" class="form-control" required><br><br>
+
+      <label for="address">Address :</label><br>
+      <input type="text" id="address" class="form-control" required>
+      </fieldset>
+
+      <!-- EDUCATION -->
+    <fieldset class="fieldset">
+      <legend for="School">EDUCATION</legend>
+      <label for="School">School: </label><br>
+      <input type="text" id="School" class="form-control" required><br><br>
+  
+      <label for="text">University : </label><br>
+      <input type="text" id="University" class="form-control" required><br><br>
+
+      <label for="address">Graduation year : </label><br>
+      <input type="text" id="Graduation" class="form-control" required>
+      </fieldset>
+
+        <!-- Work Experience -->
+    <fieldset class="fieldset">
+      <legend for="work">WORK EXPERIENCE</legend>
+      <label for="work">Enter work experience: </label><br>
+      <textarea name="work" id="works"></textarea>
+   </fieldset>
+     
+   <!-- SKILLS -->
+   <fieldset class="fieldset">
+      <legend for="skill">SKILLS</legend>
+      <label for="skill">Enter skills:</label><br>
+      <textarea name="skill" id="skills"></textarea>
+   </fieldset>
+   
+     <!-- button -->
+   <button type="submit">Generate Resume</button>
+   </form>
+   </div>
+   
+   <!-- resumeoutput -->
+   <div id="resumeoutput" contenteditable="">
+      <!-- The resume will be displayed here -->
+   </div>
+ <script src="Resume.js"></script>
+</body>
+</html>

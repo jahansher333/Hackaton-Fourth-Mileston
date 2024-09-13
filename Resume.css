@@ -1,0 +1,88 @@
+body{
+    color: #000;
+    background-color: #ac2f2f;
+    font-family: poppins sans-serif;
+}
+/* heading style */
+.headingheader{
+    text-align: center;
+    font-size: 50px;
+}
+/* container style */
+.container{
+   width: 50%;
+   height: 100%;
+   margin: auto;
+   border: 2px solid black; 
+   border-radius: 10px;
+   background-color: aliceblue;
+}
+/* form style */
+#resumeform{
+    padding: 20px;
+}
+
+/* fieldset style */
+.fieldset{
+    margin-bottom: 50px;
+    background-color: rgb(137, 137, 185);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* input style */
+input{
+    width: 90%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* textarea style */
+textarea{
+    width: 90%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* button style */
+button{
+    max-width: 600px;
+    padding: 30px;
+    margin-left: 340px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgb(18, 18, 170);
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+/* resume output style */
+#resumeoutput{
+    
+    background-color: rgb(137, 137, 185);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    margin:auto;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    outline: none;
+}
+
+/* resume output heading style */
+#resumeoutput h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(20, 168, 226);
+    margin-bottom: 20px;
+}
